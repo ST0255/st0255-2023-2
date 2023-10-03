@@ -63,7 +63,7 @@ En esta sección crearemos una instancia EC2 la cual actuará como Web Server. R
     * **Auto-assign Public IP:** Enable
     * **Firewall (security groups):**
         * Seleccione la opción de “create security group” 
-        * Active las casillas para el tráfico SSH y HTTP.Permita que reciban peticiones de cualquier dirección. 
+        * Active las casillas para el tráfico SSH y HTTP. Permita que reciban peticiones de cualquier dirección. 
         * **Nota:** Para el caso de ssh, recuerde que posteriormente puede modificar el security group para permitir solo conexiones desde la dirección IP que usted indique.
 * **Configure storage:** 1 x 8 Gib gp2 root volume 
 
@@ -98,7 +98,7 @@ ubuntu@dirIP $ node -v
 A continuación, procedar a clonar el repositorio que contiene el código fuente de la aplicación web en la máquina vm-WebServer que creo en la sección 3.1 de este documento. Para esto aplique el comando:
 
 ```git
-git clone https://github.com/ST0255/st0255-20231.git
+git clone https://github.com/ST0255/st0255-2023-2.git
 ```
 o 
 
